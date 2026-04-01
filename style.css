@@ -1,0 +1,166 @@
+       .brand-text {
+    color: #003B25; 
+        }
+        .custom-carousel-control {
+    width: 48px;
+    height: 48px;
+    background-color: white !important;
+    border-radius: 50%;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .custom-carousel-control:hover {
+    color: #000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+       }
+
+         body {
+            background-color: #f8f9fa;
+
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .search-box {
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+         .card {
+          transition: box-shadow 0.4s ease;
+            overflow: hidden; /* very important */
+          }
+
+         .card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+          }
+          .card:hover img {
+          transform: scale(1.03);
+          }
+    
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .brand-text {
+         color: #003B25; 
+        }
+  
+         .hide-scrollbar::-webkit-scrollbar {
+           display: none;
+          }
+         .hide-scrollbar {
+           -ms-overflow-style: none;
+             scrollbar-width: none;
+         }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+
+        footer a {
+            color: #adb5bd;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Navbar base (removes unwanted line/shadow) */
+.custom-navbar {
+    border-bottom: none !important;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3) !important ;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+/* Brand text */
+.brand-text {
+    color: #003B25;
+}
+
+/* Nav links */
+.nav-link {
+    color: #374151 !important;
+    position: relative;
+    padding-bottom: 6px;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+    color: #003B25 !important;
+    transform: translateY(-1px);
+}
+
+/* Underline animation */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #003B25;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+/* On hover */
+.nav-link:hover::after {
+    width: 60%;
+}
+
+
+
+/* CTA button */
+.cta-btn {
+    background-color: #003B25;
+    color: #ffffff;
+    border: none;
+    padding: 8px 22px;
+    transition: all 0.3s ease;
+}
+/* CTA hover */
+.cta-btn:hover {
+    background-color: #0f5132;
+}
